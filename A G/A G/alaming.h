@@ -27,4 +27,10 @@ public:
 	CListBox AList;
 	afx_msg void OnBnClickedimport();
 	afx_msg void OnBnClickedCancel();
+	int m_hour;
+	int m_minu;
+	int m_sec;
+	afx_msg void OnEnSetfocushour();
+	afx_msg void OnEnSetfocusminu();
+	afx_msg void OnEnSetfocussec();
 };

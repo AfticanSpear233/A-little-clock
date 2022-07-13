@@ -40,4 +40,5 @@ public:
 	afx_msg void OnBnClickedoptins();
 	afx_msg void OnBnClickedscudule();
 	CListBox clocklist;
+	CProgressCtrl DalyPro;
 };
